@@ -1,0 +1,44 @@
+body {
+    background: #ED213A;
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A);
+    background: linear-gradient(to right, #93291E, #ED213A);
+    color: white;
+    text-align: center;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.matriz {
+    display: inline-block;
+    margin: 20px;
+    vertical-align: top;
+}
+
+table {
+    width: auto;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    padding: 20px;
+    text-align: center;
+    background: #F00000;
+    background: -webkit-linear-gradient(to right, #DC281E, #F00000);
+    background: linear-gradient(to right, #DC281E, #F00000);
+}
+
+.tabelas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabelas div {
+    margin: 5%;
+}
